@@ -67,7 +67,7 @@ int Hook(void* target, void* replacement, void** func_ptr) {
     pJmp->operand = (pint)replacement - ( (pint)target + sizeof(JMP_REL) );
 #endif
 
-    int difference = ct.newIPs[ ct.nIP - 1 ];
+    int difference = ct.oldIPs[ ct.nIP - 1 ];
     for (int i=JUMP_SIZE; i<difference; i++) {
         *((uint8_t*)target + i) = NOP;
     }
