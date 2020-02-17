@@ -8,7 +8,7 @@
 #if defined(__x86_64__) || defined(_M_X64)
 typedef uint64_t pint;
 typedef int64_t sint;
-#define WORST_CASE 			40
+#define WORST_CASE 			42
 #define JUMP_SIZE 			sizeof(JMP_ABS)
 #elif defined(__i386) || defined(_M_IX86)
 typedef uint32_t pint;
