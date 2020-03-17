@@ -34,7 +34,7 @@ all: $(OUTPUT) $(PYMODULE)
 
 debug: CFLAGS += $(shell python3-config --includes) -gdwarf-2 -Wall -O0 -fvar-tracking
 debug: VERSION := MINQLX_VERSION=\"$(shell python3 python/version.py -d)\"
-debug: $(OUTPUT)
+debug: $(OUTPUT) $(PYMODULE)
 	@echo Done!
 
 nopy: CFLAGS += -Wall -DNOPY
