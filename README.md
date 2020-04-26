@@ -44,8 +44,15 @@ packages unintentionally later.
 sudo apt-get -y install redis-server git
 ```
 
-- Download one of the tarballs in [releases](https://github.com/MinoMino/minqlx/releases) and extract
-its contents into `steamcmd/steamapps/common/qlds`, or whatever other directory you might have put the
+- Clone this repository and compile minqlx
+
+```
+git clone https://github.com/MinoMino/minqlx.git
+cd minqlx
+make
+```
+
+- Copy everything from `minqlx/bin` into `steamcmd/steamapps/common/qlds`, or whatever other directory you might have put the
 files of your server in.
 
 - Clone the plugins repository and get/build Python dependencies. Assuming you're in
