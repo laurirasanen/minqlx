@@ -46,5 +46,5 @@ void framerate_fix(void* offset) {
 
 void patch_vm(void* moduleOffset) {
   vote_clientkick_fix();
-  // framerate_fix(moduleOffset);
+  framerate_fix(moduleOffset);
 }
