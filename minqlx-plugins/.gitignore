@@ -1,0 +1,11 @@
+minqlx
+.idea/
+*.pyc
+*.py
+
+!__init__.py
+!plugin_manager.py
+!essentials.py
+!race.py
+!solorace.py
+!workshop.py
