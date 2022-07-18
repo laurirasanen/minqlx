@@ -4,6 +4,8 @@
 ```
 docker build -t qlsb .
 docker run -d -p 27960:27960 -p 28960:28960 qlsb
+# interactive:
+docker run -it -p 27960:27960 -p 28960:28960 qlsb
 ```
 
 ## Credits
