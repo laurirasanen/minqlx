@@ -131,26 +131,25 @@ void __cdecl My_G_InitGame(int levelTime, int randomSeed, int restart) {
 
 	race_point_touch = (race_point_touch_ptr)qagame_dllentry + 0xEE60;
 
-    // FIXME: crashes on startup
-    /*
 	gentity_t *z1;
 	int	j1;
 	for ( j1=1, z1=g_entities+j1 ; j1 < level->num_entities ; j1++,z1++ ) {
-		if (z1->inuse && z1->classname) {
-			if (!strncmp(z1->classname, "trigger_multiple", 16) && z1->message) {
-				if (!strncmp(z1->message, "race_point", 10) && (z1->target || z1->targetname)) {
+        if (!z1->classname) continue;
+
+        if (z1->inuse) {
+			if (strncmp(z1->classname, "trigger_multiple", 16) == 0 && z1->message) {
+				if (strncmp(z1->message, "race_point", 10) == 0 && (z1->target || z1->targetname)) {
 					z1->touch = My_race_point_touch;
-				} else if (!strncmp(z1->message, "target_init", 11)) {
+				} else if (strncmp(z1->message, "target_init", 11) == 0) {
 					z1->touch = My_target_init_touch;
 				}
 			}
 		}
 
-		if (!strncmp(z1->classname, "race_point", 10)) {
+		if (strncmp(z1->classname, "race_point", 10) == 0) {
 			z1->touch = My_race_point_touch_old;
 		}
 	}
-    */
 }
 
 // USED FOR PYTHON
