@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <dlfcn.h>
-#include <sys/mman.h>
+// #include <sys/mman.h>
 
 #include "patterns.h"
 #include "common.h"
@@ -130,8 +130,9 @@ void __cdecl My_G_InitGame(int levelTime, int randomSeed, int restart) {
 #endif
 
 	race_point_touch = (race_point_touch_ptr)qagame_dllentry + 0xEE60;
-	// G_PickTarget = (G_PickTarget_ptr)qagame_dllentry + 0x18930;
 
+    // FIXME: crashes on startup
+    /*
 	gentity_t *z1;
 	int	j1;
 	for ( j1=1, z1=g_entities+j1 ; j1 < level->num_entities ; j1++,z1++ ) {
@@ -149,6 +150,7 @@ void __cdecl My_G_InitGame(int levelTime, int randomSeed, int restart) {
 			z1->touch = My_race_point_touch_old;
 		}
 	}
+    */
 }
 
 // USED FOR PYTHON
