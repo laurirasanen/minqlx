@@ -1,11 +1,14 @@
 # qlsb
 
 ## Docker
+
+Note: QL Client binds port 27960. Using the same (host) port in Docker will cause connections to fail silently.
+
 ```
 docker build -t qlsb .
-docker run -d -p 27960:27960 -p 27960:27960/udp -p 28960:28960 -v qlsb_steamapps_vol:/home/steam/qlds/steamapps -v qlsb_redis_vol:/var/lib/redis --cap-add=SYS_NICE qlsb
+docker run -d -p 27961:27961 -p 27961:27961/udp -p 28961:28961 -v qlsb_steamapps_vol:/home/steam/qlds/steamapps -v qlsb_redis_vol:/var/lib/redis --cap-add=SYS_NICE qlsb
 # interactive:
-docker run -it -p 27960:27960 -p 27960:27960/udp -p 28960:28960 -v qlsb_steamapps_vol:/home/steam/qlds/steamapps -v qlsb_redis_vol:/var/lib/redis --cap-add=SYS_NICE qlsb
+docker run -it -p 27961:27961 -p 27961:27961/udp -p 28961:28961 -v qlsb_steamapps_vol:/home/steam/qlds/steamapps -v qlsb_redis_vol:/var/lib/redis --cap-add=SYS_NICE qlsb
 ```
 
 ## Credits

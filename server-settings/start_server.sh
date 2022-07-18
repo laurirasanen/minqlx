@@ -1,7 +1,7 @@
 #!/bin/bash
 
-gamePort=27960
-rconPort=28960
+gamePort=27961
+rconPort=28961
 PRIVATE_PW=pootis
 RCON_PW=pootis
 STATS_PW=pootis
