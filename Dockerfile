@@ -66,6 +66,7 @@ RUN \
 
 # run
 USER root
+WORKDIR $QLDS
 ENTRYPOINT [ \
     "/usr/bin/nice", "-n", "-20", \
     "/usr/bin/ionice", "-c", "1", "-n", "1", "-t", \
