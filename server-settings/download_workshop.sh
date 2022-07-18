@@ -14,9 +14,9 @@ numOfIDs=$(echo "$workshopIDs" | wc -l)
 i=1
 for workshopID in $workshopIDs; do
     echo -e "Downloading item $workshopID from Steam... ($i/$numOfIDs)"
-    $steamcmdPath/steamcmd.sh +login anonymous +workshop_download_item 282440 $workshopID +quit > /dev/null
+    $steamcmdPath/steamcmd.sh +login anonymous +workshop_download_item 282440 $workshopID +quit >/dev/null
     ((i++))
-done;
+done
 
 echo "Removing old workshop data and moving new items into place..."
 rm -r $qldsPath/steamapps/workshop
