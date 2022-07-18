@@ -4,8 +4,19 @@ minqlx
 *.py
 
 !__init__.py
+
+# DEFAULT
 !plugin_manager.py
 !essentials.py
+!motd.py
+!permission.py
+!ban.py
+!silence.py
+!clan.py
+!names.py
+!log.py
+!workshop.py
+
+# qlsb
 !race.py
 !solorace.py
-!workshop.py
