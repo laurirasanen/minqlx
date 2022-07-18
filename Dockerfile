@@ -57,7 +57,7 @@ WORKDIR $QLDS/minqlx-plugins
 RUN python3 -m pip install -r requirements.txt
 
 # server settings
-COPY --chown=steam:steam server-settings/* $QLDS/
+COPY --chown=steam:steam server-settings $QLDS
 
 # clean
 RUN \
