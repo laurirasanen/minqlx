@@ -41,7 +41,7 @@ void framerate_fix(void* offset) {
 	unsigned char str_125[] = "125";
 	int page_size = sysconf(_SC_PAGESIZE);
 	mprotect((void*)((uint64_t)(offset + 0x254878) & ~(page_size-1)), page_size, PROT_READ | PROT_WRITE);
-	*(int64_t*)(offset + 0x254878) = (int64_t*)str_125;
+	*(int64_t*)(offset + 0x254878) = (int64_t)str_125;
 }
 
 void patch_vm(void* moduleOffset) {
