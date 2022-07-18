@@ -1,0 +1,92 @@
+{
+"classname" "worldspawn"
+}
+
+{
+"origin" "-64 0 24"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "4"
+"dmg" "500"
+"model" "*1"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "4"
+"dmg" "500"
+"model" "*2"
+}
+{
+"dmg" "500"
+"spawnflags" "4"
+"classname" "trigger_hurt"
+"model" "*3"
+}
+{
+"origin" "96 0 24"
+"classname" "race_point"
+"spawnflags" "1"
+"target" "end"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "4"
+"dmg" "500"
+"model" "*4"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "4"
+"dmg" "500"
+"model" "*5"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "4"
+"dmg" "500"
+"model" "*6"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "4"
+"dmg" "500"
+"model" "*7"
+}
+{
+"classname" "race_point"
+"origin" "-1744 0 -584"
+"spawnflags" "1"
+"targetname" "end"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"wait" "0.2"
+"model" "*8"
+}
+{
+"classname" "target_give"
+"origin" "168 0 -704"
+"targetname" "t1"
+"target" "t2"
+}
+{
+"gametype" "race"
+"classname" "item_haste"
+"origin" "200 0 -664"
+"targetname" "t2"
+"count" "10"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*9"
+}
+{
+"classname" "target_remove_powerups"
+"origin" "1408 -8 -736"
+"targetname" "t3"
+}
+

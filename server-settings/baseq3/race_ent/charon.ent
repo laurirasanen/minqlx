@@ -1,0 +1,258 @@
+{
+"classname" "worldspawn"
+"_ambient" "20"
+"map_by" "noodles"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-296 256 88"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-296 256 88"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-296 256 88"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-296 256 88"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-296 256 88"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-296 256 88"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-296 256 88"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-296 256 88"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-296 256 88"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-296 256 88"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-296 256 88"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-296 256 88"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-296 256 88"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-296 256 88"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-296 256 88"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-296 256 88"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-296 256 88"
+"gametype" "race"
+}
+{
+"model" "*1"
+"classname" "trigger_multiple"
+"target" "target_stopTimer2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "12064 11592 -372"
+"targetname" "target_stopTimer2"
+"angle" "-90"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "target_checkpoint1"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2028 256 204"
+"targetname" "target_checkpoint1"
+"angle" "-1.40334e-014"
+}
+{
+"model" "*3"
+"classname" "trigger_multiple"
+"target" "target_startTimer1"
+"wait" "-1"
+}
+{
+"classname" "target_startTimer"
+"origin" "32 256 268"
+"targetname" "target_startTimer1"
+"angle" "-1.40334e-014"
+}
+{
+"classname" "info_player_intermission"
+"origin" "6064 2160 -128"
+"angle" "-90"
+}
+{
+"model" "*4"
+"classname" "trigger_multiple"
+"target" "target_checkpoint3"
+}
+{
+"classname" "target_checkpoint"
+"origin" "4872 256 -42"
+"targetname" "target_checkpoint3"
+"angle" "-1.40334e-014"
+}
+{
+"model" "*5"
+"classname" "trigger_multiple"
+"target" "target_checkpoint4"
+}
+{
+"classname" "target_checkpoint"
+"origin" "7104 3304 -52"
+"targetname" "target_checkpoint4"
+"angle" "90"
+}
+{
+"model" "*6"
+"classname" "trigger_multiple"
+"target" "target_checkpoint7"
+}
+{
+"classname" "target_checkpoint"
+"origin" "7104 4796 -116"
+"targetname" "target_checkpoint7"
+"angle" "90"
+}
+{
+"model" "*7"
+"classname" "trigger_multiple"
+"target" "target_checkpoint8"
+}
+{
+"classname" "target_checkpoint"
+"origin" "7444 7040 -244"
+"targetname" "target_checkpoint8"
+}
+{
+"model" "*8"
+"classname" "trigger_multiple"
+"target" "target_checkpoint9"
+}
+{
+"classname" "target_checkpoint"
+"origin" "11060 7552 -372"
+"targetname" "target_checkpoint9"
+}
+{
+"model" "*9"
+"classname" "trigger_multiple"
+"target" "target_checkpoint10"
+}
+{
+"classname" "target_checkpoint"
+"origin" "12576 8968 -244"
+"targetname" "target_checkpoint10"
+"angle" "90"
+}
+{
+"model" "*10"
+"classname" "trigger_teleport"
+"target" "target_teleporter1"
+}
+{
+"classname" "target_teleporter"
+"origin" "5224 256 -128"
+"targetname" "target_teleporter1"
+}
+{
+"model" "*11"
+"classname" "trigger_teleport"
+"target" "target_teleporter2"
+}
+{
+"classname" "target_teleporter"
+"origin" "10064 7552 -464"
+"angle" "-1.40334e-014"
+"targetname" "target_teleporter2"
+}
+{
+"model" "*12"
+"classname" "trigger_teleport"
+"target" "target_teleporter3"
+}
+{
+"classname" "target_teleporter"
+"origin" "10852 7552 -455"
+"targetname" "target_teleporter3"
+}
+{
+"model" "*13"
+"classname" "trigger_teleport"
+"target" "target_teleporter4"
+}
+{
+"classname" "target_teleporter"
+"origin" "12576 8584 -284"
+"angle" "90"
+"targetname" "target_teleporter4"
+}
+{
+"model" "*14"
+"classname" "trigger_teleport"
+"target" "target_teleporter5"
+}
+{
+"classname" "target_teleporter"
+"origin" "12064 10568 -480"
+"angle" "90"
+"targetname" "target_teleporter5"
+}
+{
+"target" "finish"
+"spawnflags" "1"
+"origin" "-144 256 88"
+"classname" "race_point"
+}
+{
+"targetname" "finish"
+"spawnflags" "1"
+"origin" "12064 11696 -496"
+"classname" "race_point"
+}

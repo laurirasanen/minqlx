@@ -1,0 +1,160 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "target_stopTimer"
+"targetname" "nmn_init"
+"origin" "-824 -7400 1128"
+}
+{
+"model" "*1"
+"classname" "trigger_hurt"
+"dmg" "999"
+"spawnflags" "12"
+}
+{
+"origin" "-136 4336 2648"
+"targetname" "nmn_start_init"
+"classname" "target_startTimer"
+}
+{
+"origin" "-64 4424 2664"
+"angle" "270"
+"classname" "info_player_deathmatch"
+"gametype" "race"
+}
+{
+"origin" "-64 4424 2664"
+"angle" "270"
+"classname" "info_player_deathmatch"
+"gametype" "race"
+}
+{
+"origin" "-64 4424 2664"
+"angle" "270"
+"classname" "info_player_deathmatch"
+"gametype" "race"
+}
+{
+"origin" "-64 4424 2664"
+"angle" "270"
+"classname" "info_player_deathmatch"
+"gametype" "race"
+}
+{
+"origin" "-64 4424 2664"
+"angle" "270"
+"classname" "info_player_deathmatch"
+"gametype" "race"
+}
+{
+"origin" "-64 4424 2664"
+"angle" "270"
+"classname" "info_player_deathmatch"
+"gametype" "race"
+}
+{
+"origin" "-64 4424 2664"
+"angle" "270"
+"classname" "info_player_deathmatch"
+"gametype" "race"
+}
+{
+"origin" "-64 4424 2664"
+"angle" "270"
+"classname" "info_player_deathmatch"
+"gametype" "race"
+}
+{
+"origin" "-64 4424 2664"
+"angle" "270"
+"classname" "info_player_deathmatch"
+"gametype" "race"
+}
+{
+"origin" "-64 4424 2664"
+"angle" "270"
+"classname" "info_player_deathmatch"
+"gametype" "race"
+}
+{
+"origin" "-64 4424 2664"
+"angle" "270"
+"classname" "info_player_deathmatch"
+"gametype" "race"
+}
+{
+"origin" "-64 4424 2664"
+"angle" "270"
+"classname" "info_player_deathmatch"
+"gametype" "race"
+}
+{
+"origin" "-64 4424 2664"
+"angle" "270"
+"classname" "info_player_deathmatch"
+"gametype" "race"
+}
+{
+"origin" "-64 4424 2664"
+"angle" "270"
+"classname" "info_player_deathmatch"
+"gametype" "race"
+}
+{
+"origin" "-64 4424 2664"
+"angle" "270"
+"classname" "info_player_deathmatch"
+"gametype" "race"
+}
+{
+"origin" "-64 4424 2664"
+"angle" "270"
+"classname" "info_player_deathmatch"
+"gametype" "race"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "nmn_init"
+}
+{
+"origin" "-872 -8088 1080"
+"classname" "item_health_large"
+}
+{
+"origin" "528 -364 823"
+"targetname" "t2"
+"classname" "target_position"
+}
+{
+"origin" "-668 -377 812"
+"targetname" "t3"
+"classname" "target_position"
+}
+{
+"origin" "-44 4196 2648"
+"classname" "weapon_rocketlauncher"
+}
+{
+"wait" "1"
+"classname" "item_armor_body"
+"origin" "-56 4320 2648"
+}
+{
+"model" "*3"
+"target" "nmn_start_init"
+"classname" "trigger_multiple"
+}
+{
+"classname" "race_point"
+"origin" "-40 4136 2648"
+"spawnflags" "1"
+"target" "finish"
+}
+{
+"classname" "race_point"
+"origin" "-528 -7424 928"
+"spawnflags" "1"
+"targetname" "finish"
+}

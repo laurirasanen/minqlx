@@ -1,0 +1,115 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "-4268 3488 32"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "-4268 3488 32"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "-4268 3488 32"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "-4268 3488 32"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "-4268 3488 32"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "-4268 3488 32"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "-4268 3488 32"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "-4268 3488 32"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "-4268 3488 32"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "-4268 3488 32"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "-4268 3488 32"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "-4268 3488 32"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "-4268 3488 32"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "-4268 3488 32"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "-4268 3488 32"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "-4268 3488 32"
+}
+{
+"model" "*1"
+"classname" "trigger_multiple"
+"target" "t1"
+}
+{
+"classname" "target_startTimer"
+"origin" "-3632 3494 132"
+"targetname" "t1"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "t2"
+}
+{
+"classname" "target_stopTimer"
+"origin" "-4372 -2649 97"
+"targetname" "t2"
+}
+{
+"classname" "race_point"
+"origin" "-4128 3488 24"
+"spawnflags" "1"
+"target" "finish"
+}
+{
+"classname" "race_point"
+"origin" "-4200 -3752 16"
+"spawnflags" "1"
+"targetname" "finish"
+}

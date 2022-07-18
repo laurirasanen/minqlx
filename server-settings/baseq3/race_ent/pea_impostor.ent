@@ -1,0 +1,326 @@
+{
+"_color" "1.000000 0.790000 0.770000"
+"ambient" "10"
+"message" "For vq3 only"
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "0 -168 32"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "0 -168 32"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "0 -168 32"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "0 -168 32"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "0 -168 32"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "0 -168 32"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "0 -168 32"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "0 -168 32"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "0 -168 32"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "0 -168 32"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "0 -168 32"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "0 -168 32"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "0 -168 32"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "0 -168 32"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "0 -168 32"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"gametype" "race"
+"origin" "0 -168 32"
+"angle" "90"
+}
+{
+"model" "*1"
+"target" "t2"
+"targetname" "t1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t2"
+"origin" "0 128 128"
+"classname" "target_init"
+}
+{
+"targetname" "t2"
+"origin" "64 128 128"
+"classname" "target_startTimer"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "t4"
+}
+{
+"classname" "target_remove_powerups"
+"origin" "960 1184 128"
+"targetname" "t4"
+}
+{
+"model" "*3"
+"classname" "trigger_multiple"
+"target" "t5"
+}
+{
+"classname" "target_checkpoint"
+"origin" "960 3296 128"
+"targetname" "t5"
+}
+{
+"model" "*4"
+"target" "t11"
+"classname" "trigger_multiple"
+}
+{
+"gametype" "race"
+"target" "haste1"
+"targetname" "t11"
+"origin" "960 9536 96"
+"classname" "target_give"
+}
+{
+"model" "*5"
+"target" "t12"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t12"
+"origin" "960 6816 128"
+"classname" "target_checkpoint"
+}
+{
+"model" "*6"
+"classname" "trigger_multiple"
+"target" "t13"
+}
+{
+"classname" "target_remove_powerups"
+"origin" "960 13312 176"
+"targetname" "t13"
+}
+{
+"model" "*7"
+"target" "t14"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t14"
+"origin" "2592 13504 704"
+"classname" "target_checkpoint"
+}
+{
+"model" "*8"
+"classname" "trigger_multiple"
+"target" "t15"
+}
+{
+"classname" "target_checkpoint"
+"origin" "18328 13504 704"
+"targetname" "t15"
+}
+{
+"model" "*9"
+"target" "t17"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t17"
+"origin" "19864 13504 1088"
+"classname" "target_checkpoint"
+}
+{
+"model" "*10"
+"classname" "trigger_multiple"
+"target" "t18"
+}
+{
+"classname" "target_give"
+"origin" "20248 12352 1088"
+"targetname" "t18"
+"gametype" "race"
+"target" "haste2"
+}
+{
+"model" "*11"
+"target" "t19"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t20"
+"origin" "960 9664 128"
+"classname" "target_teleporter"
+"angle" "90"
+}
+{
+"model" "*12"
+"classname" "trigger_teleport"
+"target" "t20"
+}
+{
+"classname" "target_teleporter"
+"origin" "20608 12608 1056"
+"angle" "270"
+"targetname" "t21"
+}
+{
+"model" "*13"
+"target" "t21"
+"classname" "trigger_teleport"
+}
+{
+"model" "*14"
+"target" "t22"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t22"
+"origin" "18192 12352 1136"
+"classname" "target_remove_powerups"
+}
+{
+"targetname" "t19"
+"origin" "15936 12352 1216"
+"classname" "target_give"
+"target" "haste3"
+"gametype" "race"
+}
+{
+"model" "*15"
+"classname" "trigger_teleport"
+"target" "t23"
+}
+{
+"classname" "target_teleporter"
+"origin" "16128 12352 1152"
+"angle" "180"
+"targetname" "t23"
+}
+{
+"model" "*16"
+"classname" "trigger_multiple"
+"target" "t24"
+}
+{
+"classname" "target_stopTimer"
+"origin" "11456 12352 768"
+"targetname" "t24"
+}
+{
+"spawnflags" "4"
+"targetname" "t19"
+"origin" "15936 12416 1152"
+"classname" "target_init"
+}
+{
+"model" "*17"
+"classname" "trigger_hurt"
+"dmg" "50"
+}
+{
+"model" "*18"
+"dmg" "50"
+"classname" "trigger_hurt"
+}
+{
+"target" "finish"
+"spawnflags" "1"
+"origin" "0 176 16"
+"classname" "race_point"
+}
+{
+"count" "50"
+"gametype" "race"
+"targetname" "haste1"
+"origin" "960 9568 96"
+"classname" "item_haste"
+}
+{
+"targetname" "finish"
+"spawnflags" "1"
+"origin" "11184 12352 400"
+"classname" "race_point"
+}
+{
+"classname" "item_haste"
+"origin" "20208 12352 1088"
+"targetname" "haste2"
+"count" "50"
+"gametype" "race"
+}
+{
+"classname" "item_haste"
+"origin" "15904 12352 1216"
+"gametype" "race"
+"targetname" "haste3"
+"count" "50"
+}

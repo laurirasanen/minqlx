@@ -1,0 +1,1275 @@
+{
+"gridsize" "96 96 144"
+"classname" "worldspawn"
+"target" "telestart4"
+"_farplanedist" "5000"
+"_blocksize" "2048"
+"message" "by bEnz"
+}
+{
+"model" "*1"
+"classname" "trigger_teleport"
+"target" "misc_teleporter_dest1"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "160 6336 1560"
+"angle" "90"
+"targetname" "misc_teleporter_dest1"
+"message" "by bEnz"
+}
+{
+"classname" "weapon_bfg"
+"origin" "156 7824 1600"
+"count" "2"
+"wait" "5"
+"message" "by bEnz"
+"gametype" "race"
+"targetname" "bfg"
+}
+{
+"classname" "item_enviro"
+"origin" "160 9728 1824"
+"wait" "9999"
+"count" "9999"
+"message" "by bEnz"
+}
+{
+"classname" "ammo_bfg"
+"origin" "-704 7424 1616"
+"spawnflags" "1"
+"count" "10"
+"wait" "1"
+"message" "by bEnz"
+"gametype" "race"
+"targetname" "ammobfg"
+}
+{
+"classname" "ammo_bfg"
+"origin" "-544 7424 1480"
+"spawnflags" "1"
+"count" "10"
+"wait" "1"
+"message" "by bEnz"
+"gametype" "race"
+"targetname" "ammobfg"
+}
+{
+"classname" "ammo_bfg"
+"origin" "-864 7424 1744"
+"spawnflags" "1"
+"count" "10"
+"wait" "1"
+"message" "by bEnz"
+"gametype" "race"
+"targetname" "ammobfg"
+}
+{
+"targetname" "gl"
+"gametype" "race"
+"classname" "weapon_grenadelauncher"
+"origin" "48 2712 4384"
+"wait" "1"
+"count" "25"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "32 -160 4088"
+"angle" "90"
+"targetname" "telebaseup1"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "32 -1072 3768"
+"angle" "90"
+"targetname" "telebaseback1"
+"message" "by bEnz"
+}
+{
+"model" "*2"
+"classname" "trigger_teleport"
+"target" "telebaseback1"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "32 -1072 3768"
+"angle" "90"
+"targetname" "telebaseback2"
+"message" "by bEnz"
+}
+{
+"model" "*3"
+"classname" "trigger_teleport"
+"target" "telebaseup1"
+"message" "by bEnz"
+}
+{
+"model" "*4"
+"classname" "trigger_teleport"
+"target" "telebaseback2"
+"message" "by bEnz"
+}
+{
+"model" "*5"
+"classname" "trigger_teleport"
+"target" "telebase1"
+"message" "by bEnz"
+}
+{
+"model" "*6"
+"classname" "trigger_teleport"
+"target" "telebase2"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "640 2288 3928"
+"targetname" "telebase2"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1296 80 3768"
+"angle" "-90"
+"targetname" "telebase3"
+"message" "by bEnz"
+}
+{
+"model" "*7"
+"classname" "trigger_teleport"
+"target" "telebase3"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "2144 2272 3928"
+"angle" "90"
+"targetname" "telewhite1"
+"message" "by bEnz"
+}
+{
+"model" "*8"
+"classname" "trigger_teleport"
+"target" "telewhite1"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "2208 3472 3928"
+"angle" "180"
+"targetname" "telesticks1"
+"message" "by bEnz"
+}
+{
+"model" "*9"
+"classname" "trigger_teleport"
+"target" "telesticks1"
+"message" "by bEnz"
+}
+{
+"model" "*10"
+"classname" "trigger_teleport"
+"target" "telesticks2"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "984 2704 4120"
+"angle" "180"
+"targetname" "telesticks2"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "48 3448 4344"
+"angle" "-90"
+"targetname" "telesticks3"
+"message" "by bEnz"
+}
+{
+"model" "*11"
+"classname" "trigger_teleport"
+"target" "telesticks3"
+"message" "by bEnz"
+}
+{
+"classname" "weapon_plasmagun"
+"origin" "-4100 608 4864"
+"wait" "1"
+"count" "200"
+"message" "by bEnz"
+"gametype" "race"
+"targetname" "plasma"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1072 1056 4824"
+"targetname" "telebaseupside1"
+"message" "by bEnz"
+}
+{
+"model" "*12"
+"classname" "trigger_teleport"
+"target" "telebaseupside1"
+"message" "by bEnz"
+}
+{
+"model" "*13"
+"classname" "trigger_teleport"
+"target" "telebaseupside2"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-2144 608 4824"
+"angle" "180"
+"targetname" "telebaseupside2"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-1504 608 4824"
+"angle" "-90"
+"targetname" "telebaseupside3"
+"message" "by bEnz"
+}
+{
+"model" "*14"
+"classname" "trigger_teleport"
+"target" "telebaseupside3"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "992 -672 4536"
+"angle" "180"
+"targetname" "telebaseupsidesnow"
+"message" "by bEnz"
+}
+{
+"model" "*15"
+"classname" "trigger_teleport"
+"target" "telebaseupsidesnow"
+"light" "87"
+"message" "by bEnz"
+}
+{
+"model" "*16"
+"classname" "trigger_teleport"
+"target" "telepg1"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "3088 -504 4376"
+"angle" "-90"
+"targetname" "telepg1"
+"message" "by bEnz"
+}
+{
+"model" "*17"
+"classname" "trigger_teleport"
+"target" "telepg2"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "4016 -624 3832"
+"targetname" "telepg2"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "4400 400 3832"
+"angle" "90"
+"targetname" "telepg3"
+"message" "by bEnz"
+}
+{
+"model" "*18"
+"classname" "trigger_teleport"
+"target" "telepg3"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "160 -384 -8"
+"angle" "90"
+"targetname" "telefin1"
+"message" "by bEnz"
+}
+{
+"model" "*19"
+"classname" "trigger_push"
+"target" "target_position1"
+"message" "by bEnz"
+}
+{
+"classname" "target_position"
+"origin" "-3200 6976 4704"
+"angle" "90"
+"targetname" "target_position1"
+"message" "by bEnz"
+}
+{
+"model" "*20"
+"classname" "trigger_teleport"
+"target" "telepads2"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "2208 1248 4536"
+"angle" "-90"
+"targetname" "telepads2"
+"message" "by bEnz"
+}
+{
+"model" "*21"
+"classname" "trigger_teleport"
+"target" "telefin1"
+"message" "by bEnz"
+}
+{
+"model" "*22"
+"classname" "trigger_teleport"
+"target" "telestart1"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-4320 4128 4376"
+"angle" "-90"
+"targetname" "telestart1"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-2528 4128 4376"
+"angle" "90"
+"targetname" "telestart2"
+"message" "by bEnz"
+}
+{
+"model" "*23"
+"classname" "trigger_teleport"
+"target" "telestart2"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-2528 5152 4376"
+"angle" "90"
+"targetname" "telestart3"
+"message" "by bEnz"
+}
+{
+"model" "*24"
+"classname" "trigger_teleport"
+"target" "telestart3"
+"message" "by bEnz"
+}
+{
+"model" "*25"
+"classname" "trigger_teleport"
+"target" "telestartjpad"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-3200 5600 4376"
+"angle" "90"
+"targetname" "telestartjpad"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-4448 608 4824"
+"angle" "-1.40334e-014"
+"targetname" "teleplasmaguntaken"
+"message" "by bEnz"
+}
+{
+"model" "*26"
+"classname" "trigger_teleport"
+"target" "teleplasmaguntaken"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1904 576 3448"
+"angle" "90"
+"targetname" "telebase1"
+"message" "by bEnz"
+}
+{
+"model" "*27"
+"classname" "trigger_push"
+"target" "target_position2"
+"message" "by bEnz"
+}
+{
+"classname" "target_position"
+"origin" "1904 1160 3880"
+"angle" "90"
+"targetname" "target_position2"
+"message" "by bEnz"
+}
+{
+"classname" "item_enviro"
+"origin" "32 1472 4416"
+"count" "9999"
+"wait" "9999"
+"message" "by bEnz"
+}
+{
+"classname" "ammo_cells"
+"origin" "3088 -560 3728"
+"count" "200"
+"wait" "1"
+"message" "by bEnz"
+"targetname" "plasmaammo1"
+"gametype" "race"
+}
+{
+"classname" "ammo_cells"
+"origin" "3088 -1072 4432"
+"wait" "1"
+"count" "200"
+"message" "by bEnz"
+"gametype" "race"
+"targetname" "pammo2"
+}
+{
+"classname" "ammo_cells"
+"origin" "4432 -624 3888"
+"wait" "1"
+"count" "200"
+"message" "by bEnz"
+"gametype" "race"
+"targetname" "pammo3"
+}
+{
+"classname" "ammo_cells"
+"origin" "4400 720 3888"
+"wait" "1"
+"count" "200"
+"message" "by bEnz"
+"gametype" "race"
+"targetname" "pammo4"
+}
+{
+"classname" "ammo_cells"
+"origin" "6608 784 3888"
+"wait" "1"
+"count" "200"
+"message" "by bEnz"
+"gametype" "race"
+"targetname" "pammo5"
+}
+{
+"classname" "ammo_grenades"
+"origin" "4016 -880 3888"
+"wait" "1"
+"count" "5"
+"message" "by bEnz"
+"gametype" "race"
+"targetname" "glammo1"
+}
+{
+"classname" "ammo_grenades"
+"origin" "4816 400 3888"
+"wait" "1"
+"count" "5"
+"message" "by bEnz"
+"gametype" "race"
+"targetname" "glammo2"
+}
+{
+"classname" "ammo_bfg"
+"origin" "1024 7424 1616"
+"spawnflags" "1"
+"count" "10"
+"wait" "1"
+"message" "by bEnz"
+"targetname" "ammobfg"
+"gametype" "race"
+}
+{
+"classname" "ammo_bfg"
+"origin" "864 7424 1480"
+"spawnflags" "1"
+"count" "10"
+"wait" "1"
+"message" "by bEnz"
+"targetname" "ammobfg"
+"gametype" "race"
+}
+{
+"classname" "ammo_bfg"
+"origin" "1184 7424 1744"
+"spawnflags" "1"
+"count" "10"
+"wait" "1"
+"message" "by bEnz"
+"targetname" "ammobfg"
+"gametype" "race"
+}
+{
+"model" "*28"
+"classname" "trigger_teleport"
+"target" "telebfgsection1"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "160 -384 -8"
+"angle" "90"
+"targetname" "telebfgsection1"
+"message" "by bEnz"
+}
+{
+"model" "*29"
+"classname" "trigger_teleport"
+"target" "telebfgsection2"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1024 1088 -8"
+"angle" "90"
+"targetname" "telebfgsection2"
+"message" "by bEnz"
+}
+{
+"model" "*30"
+"classname" "trigger_teleport"
+"target" "telebfgsection3"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-704 1088 -8"
+"angle" "90"
+"targetname" "telebfgsection3"
+"message" "by bEnz"
+}
+{
+"model" "*31"
+"classname" "trigger_teleport"
+"target" "telebfgsection4"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1024 1952 344"
+"angle" "90"
+"targetname" "telebfgsection4"
+"message" "by bEnz"
+}
+{
+"model" "*32"
+"classname" "trigger_teleport"
+"target" "telebfgsection5"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-704 1952 344"
+"angle" "90"
+"targetname" "telebfgsection5"
+"message" "by bEnz"
+}
+{
+"model" "*33"
+"classname" "trigger_teleport"
+"target" "telebfgsection6"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "160 3776 216"
+"angle" "90"
+"targetname" "telebfgsection6"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "160 5408 216"
+"angle" "90"
+"targetname" "telebfgsection7"
+"message" "by bEnz"
+}
+{
+"model" "*34"
+"classname" "trigger_teleport"
+"target" "telebfgsection7"
+"message" "by bEnz"
+}
+{
+"model" "*35"
+"classname" "trigger_teleport"
+"target" "telebfgsection8"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "160 8288 1976"
+"angle" "90"
+"targetname" "telebfgsection8"
+"message" "by bEnz"
+}
+{
+"model" "*36"
+"classname" "trigger_teleport"
+"target" "telepads1"
+"message" "by bEnz"
+}
+{
+"target" "abba"
+"classname" "misc_teleporter_dest"
+"origin" "-3200 7168 4632"
+"angle" "90"
+"targetname" "telepads1"
+"message" "by bEnz"
+}
+{
+"model" "*37"
+"classname" "func_button"
+"wait" "10"
+"angle" "-2"
+"target" "func_door1"
+"message" "by bEnz"
+}
+{
+"model" "*38"
+"classname" "func_door"
+"angle" "-2"
+"speed" "100"
+"targetname" "func_door1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "-2912 11248 4768"
+"angle" "90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "-2912 8176 4768"
+"angle" "90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "-2912 8688 4768"
+"angle" "90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "-2912 9200 4768"
+"angle" "90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "-2912 9712 4768"
+"angle" "90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "-2912 10224 4768"
+"angle" "90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "-2912 10736 4768"
+"angle" "90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "-3488 10736 4768"
+"angle" "90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "-3488 10224 4768"
+"angle" "90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "-3488 9712 4768"
+"angle" "90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "-3488 9200 4768"
+"angle" "90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "-3488 8688 4768"
+"angle" "90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "-3488 11248 4768"
+"angle" "90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "-3488 8176 4768"
+"angle" "90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "2272 432 5040"
+"angle" "-90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "2592 432 5168"
+"angle" "-90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "2272 80 5040"
+"angle" "-90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "2592 80 5168"
+"angle" "-90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "2464 -272 5072"
+"angle" "-90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "1648 80 5040"
+"angle" "180"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "1648 -272 5040"
+"angle" "180"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"classname" "target_speaker"
+"origin" "2112 -272 5040"
+"angle" "-90"
+"noise" "sound/world/icewind1"
+"spawnflags" "1"
+"message" "by bEnz"
+}
+{
+"model" "*39"
+"classname" "trigger_multiple"
+"target" "start"
+"message" "by bEnz"
+}
+{
+"classname" "target_startTimer"
+"origin" "-3488 2688 4544"
+"angle" "90"
+"targetname" "start"
+"message" "by bEnz"
+}
+{
+"model" "*40"
+"classname" "trigger_multiple"
+"target" "stop"
+"message" "by bEnz"
+}
+{
+"classname" "target_stopTimer"
+"origin" "160 2352 2256"
+"angle" "-90"
+"targetname" "stop"
+"message" "by bEnz"
+}
+{
+"model" "*41"
+"classname" "trigger_multiple"
+"target" "init"
+"message" "by bEnz"
+}
+{
+"classname" "target_init"
+"origin" "6608 544 4352"
+"angle" "-90"
+"targetname" "init"
+"message" "by bEnz"
+}
+{
+"model" "*42"
+"classname" "trigger_multiple"
+"target" "checkpoint1"
+"message" "by bEnz"
+}
+{
+"classname" "target_remove_powerups"
+"origin" "-3200 12384 4664"
+"angle" "90"
+"targetname" "checkpoint1"
+"message" "by bEnz"
+}
+{
+"model" "*43"
+"classname" "trigger_multiple"
+"target" "checkpoint2"
+"message" "by bEnz"
+}
+{
+"classname" "target_checkpoint"
+"origin" "2144 2368 4096"
+"angle" "90"
+"targetname" "checkpoint2"
+"message" "by bEnz"
+}
+{
+"model" "*44"
+"classname" "trigger_multiple"
+"target" "checkpoint3"
+"message" "by bEnz"
+}
+{
+"classname" "target_remove_powerups"
+"origin" "32 -64 4448"
+"angle" "90"
+"targetname" "checkpoint3"
+"message" "by bEnz"
+}
+{
+"model" "*45"
+"classname" "trigger_multiple"
+"target" "checkpoint4"
+"message" "by bEnz"
+}
+{
+"classname" "target_checkpoint"
+"origin" "-4288 608 4896"
+"targetname" "checkpoint4"
+"message" "by bEnz"
+}
+{
+"model" "*46"
+"classname" "trigger_multiple"
+"target" "checkpoint5"
+"message" "by bEnz"
+}
+{
+"classname" "target_checkpoint"
+"origin" "3088 -368 4496"
+"angle" "-90"
+"targetname" "checkpoint5"
+"message" "by bEnz"
+}
+{
+"model" "*47"
+"classname" "trigger_multiple"
+"target" "checkpoint6"
+"message" "by bEnz"
+}
+{
+"classname" "target_checkpoint"
+"origin" "6608 608 4352"
+"angle" "-90"
+"targetname" "checkpoint6"
+"message" "by bEnz"
+}
+{
+"model" "*48"
+"classname" "trigger_multiple"
+"target" "checkpoint7"
+"message" "by bEnz"
+}
+{
+"classname" "target_checkpoint"
+"origin" "160 9552 1792"
+"angle" "90"
+"targetname" "checkpoint7"
+"message" "by bEnz"
+}
+{
+"model" "*49"
+"classname" "trigger_multiple"
+"target" "kill1"
+"message" "by bEnz"
+}
+{
+"classname" "target_kill"
+"origin" "-3168 608 4992"
+"targetname" "kill1"
+"message" "by bEnz"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-3488 2336 4440"
+"angle" "90"
+"gametype" "race"
+"message" "by bEnz"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-3488 2336 4440"
+"angle" "90"
+"gametype" "race"
+"message" "by bEnz"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-3488 2336 4440"
+"angle" "90"
+"gametype" "race"
+"message" "by bEnz"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-3488 2336 4440"
+"angle" "90"
+"gametype" "race"
+"message" "by bEnz"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-3488 2336 4440"
+"angle" "90"
+"gametype" "race"
+"message" "by bEnz"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-3488 2336 4440"
+"angle" "90"
+"gametype" "race"
+"message" "by bEnz"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-3488 2336 4440"
+"angle" "90"
+"gametype" "race"
+"message" "by bEnz"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-3488 2336 4440"
+"angle" "90"
+"gametype" "race"
+"message" "by bEnz"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-3488 2336 4440"
+"angle" "90"
+"gametype" "race"
+"message" "by bEnz"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-3488 2336 4440"
+"angle" "90"
+"gametype" "race"
+"message" "by bEnz"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-3488 2336 4440"
+"angle" "90"
+"gametype" "race"
+"message" "by bEnz"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-3488 2336 4440"
+"angle" "90"
+"gametype" "race"
+"message" "by bEnz"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-3488 2336 4440"
+"angle" "90"
+"gametype" "race"
+"message" "by bEnz"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-3488 2336 4440"
+"angle" "90"
+"gametype" "race"
+"message" "by bEnz"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-3488 2336 4440"
+"angle" "90"
+"gametype" "race"
+"message" "by bEnz"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-6368 608 4824"
+"angle" "180"
+"targetname" "telesecret"
+"message" "by bEnz"
+}
+{
+"model" "*50"
+"classname" "trigger_teleport"
+"target" "telesecret"
+"message" "by bEnz"
+}
+{
+"classname" "item_armor_combat"
+"origin" "160 6336 1632"
+"angle" "90"
+"wait" "5"
+}
+{
+"classname" "item_health_large"
+"origin" "784 5968 288"
+"wait" "5"
+}
+{
+"classname" "item_health_large"
+"origin" "784 6768 288"
+"wait" "5"
+}
+{
+"classname" "item_health_large"
+"origin" "-464 6768 288"
+"wait" "5"
+}
+{
+"classname" "item_health_large"
+"origin" "-464 5968 288"
+"wait" "5"
+}
+{
+"target" "cp1"
+"spawnflags" "1"
+"origin" "-3488 2576 4432"
+"classname" "race_point"
+}
+{
+"target" "haste1"
+"gametype" "race"
+"origin" "-3200 7408 4640"
+"classname" "trigger_always"
+}
+{
+"target" "cp2"
+"targetname" "cp1"
+"spawnflags" "1"
+"origin" "2208 1192 4528"
+"classname" "race_point"
+}
+{
+"target" "cp3"
+"targetname" "cp2"
+"spawnflags" "1"
+"origin" "32 -1072 3760"
+"classname" "race_point"
+}
+{
+"target" "cp4"
+"targetname" "cp3"
+"spawnflags" "1"
+"origin" "48 3360 4336"
+"classname" "race_point"
+}
+{
+"gametype" "race"
+"count" "1"
+"wait" "1"
+"targetname" "haste2"
+"spawnflags" "1"
+"classname" "item_haste"
+"origin" "48 3200 4368"
+}
+{
+"target" "haste2"
+"gametype" "race"
+"origin" "48 3144 4376"
+"classname" "trigger_always"
+}
+{
+"gametype" "race"
+"target" "gl"
+"origin" "96 2712 4384"
+"classname" "trigger_always"
+}
+{
+"targetname" "cp4"
+"spawnflags" "1"
+"origin" "32 1472 4368"
+"classname" "race_point"
+"target" "cp5"
+}
+{
+"classname" "trigger_always"
+"origin" "-4168 608 4864"
+"target" "plasma"
+"gametype" "race"
+}
+{
+"classname" "race_point"
+"origin" "-2088 608 4816"
+"spawnflags" "1"
+"targetname" "cp5"
+"target" "cp6"
+}
+{
+"classname" "trigger_always"
+"origin" "3128 -560 3728"
+"gametype" "race"
+"target" "plasmaammo1"
+}
+{
+"classname" "race_point"
+"origin" "3088 -608 4368"
+"spawnflags" "1"
+"targetname" "cp6"
+"target" "cp7"
+}
+{
+"classname" "trigger_always"
+"origin" "3128 -1072 4432"
+"target" "pammo2"
+"gametype" "race"
+}
+{
+"classname" "trigger_always"
+"origin" "4056 -880 3888"
+"target" "glammo1"
+"gametype" "race"
+}
+{
+"classname" "trigger_always"
+"origin" "4432 -664 3888"
+"target" "pammo3"
+"gametype" "race"
+}
+{
+"classname" "trigger_always"
+"origin" "4440 720 3888"
+"target" "pammo4"
+"gametype" "race"
+}
+{
+"classname" "race_point"
+"origin" "160 -328 -16"
+"spawnflags" "1"
+"targetname" "cp7"
+"target" "cp8"
+}
+{
+"classname" "race_point"
+"origin" "160 9728 1744"
+"spawnflags" "1"
+"targetname" "cp8"
+"target" "cp9"
+}
+{
+"classname" "trigger_always"
+"origin" "216 7816 1600"
+"target" "bfg"
+"gametype" "race"
+}
+{
+"classname" "trigger_always"
+"origin" "160 7520 1344"
+"gametype" "race"
+"target" "ammobfg"
+}
+{
+"classname" "race_point"
+"origin" "152 2184 2128"
+"spawnflags" "1"
+"targetname" "cp9"
+}
+{
+"origin" "-3256 8816 4632"
+"classname" "item_haste"
+"targetname" "haste1"
+"gametype" "race"
+"wait" "1"
+"count" "3"
+}
+{
+"origin" "-3144 8816 4632"
+"classname" "item_haste"
+"targetname" "haste1"
+"gametype" "race"
+"wait" "1"
+"count" "3"
+}

@@ -1,0 +1,560 @@
+{
+"classname" "worldspawn"
+"maxrange" "4096"
+"_generator" "Jackhammer 1.1.855 (vpQuake3)"
+}
+
+
+{
+"classname" "team_CTF_blueflag"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "1098 1232 -977"
+}
+
+{
+"classname" "team_CTF_redflag"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"angles" "0 0 0"
+"origin" "-982 -1308 -987"
+}
+{
+"classname" "weapon_plasmagun"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "184 -91 -984"
+}
+{
+"classname" "ammo_cells"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 271 0"
+"origin" "520.99 1435.85 -990"
+}
+{
+"classname" "ammo_cells"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 271 0"
+"origin" "422.993 1435.26 -989"
+}
+{
+"classname" "weapon_plasmagun"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "639 1429 -994"
+}
+{
+"classname" "weapon_shotgun"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "1250 1059 -994"
+}
+{
+"classname" "weapon_shotgun"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "1118 1049 -994"
+}
+{
+"classname" "weapon_shotgun"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "991 1051 -994"
+}
+{
+"classname" "weapon_shotgun"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "855 1054 -994"
+}
+{
+"classname" "item_armor_body"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "174 775 -994"
+}
+{
+"classname" "ammo_rockets"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "438 606 -930"
+}
+{
+"classname" "weapon_rocketlauncher"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "417 711 -930"
+}
+{
+"classname" "ammo_rockets"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "427 787 -930"
+}
+{
+"classname" "weapon_railgun"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-219 1413 -928"
+}
+{
+"classname" "ammo_slugs"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"angles" "0 0 0"
+"origin" "-308 1404 -928"
+}
+{
+"classname" "ammo_slugs"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"angles" "0 0 0"
+"origin" "-166 1406 -928"
+}
+{
+"classname" "weapon_lightning"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-292 1116 -994"
+}
+{
+"classname" "ammo_lightning"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"angles" "0 0 0"
+"origin" "-221 1113 -994"
+}
+{
+"classname" "ammo_lightning"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-155 1112 -994"
+}
+{
+"classname" "weapon_shotgun"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-1213 -1153 -994"
+}
+{
+"classname" "weapon_shotgun"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-1149 -1152 -994"
+}
+{
+"classname" "weapon_shotgun"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-1024 -1152 -994"
+}
+{
+"classname" "weapon_shotgun"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-891 -1154 -994"
+}
+{
+"classname" "weapon_shotgun"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-764 -1149 -994"
+}
+{
+"classname" "weapon_lightning"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-395 -1553 -994"
+}
+{
+"classname" "ammo_lightning"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-409 -1488 -994"
+}
+{
+"classname" "item_health_large"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-98 -1557 -994"
+}
+{
+"classname" "item_health_large"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-181 -1561 -994"
+}
+{
+"classname" "weapon_rocketlauncher"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "106 -1391 -994"
+}
+{
+"classname" "ammo_rockets"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "123 -1308 -994"
+}
+{
+"classname" "ammo_rockets"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "125 -1229 -994"
+}
+{
+"classname" "weapon_grenadelauncher"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "321 -1128 -994"
+}
+{
+"classname" "ammo_grenades"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "228 -1128 -994"
+}
+{
+"classname" "weapon_railgun"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "292 -1504 -928"
+}
+{
+"classname" "ammo_slugs"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "416 -1397 -928"
+}
+{
+"classname" "ammo_slugs"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "437 -1515 -928"
+}
+{
+"classname" "weapon_plasmagun"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-321 -1162 -994"
+}
+{
+"classname" "ammo_cells"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-319 -1084 -994"
+}
+{
+"classname" "ammo_cells"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-315 -971 -994"
+}
+{
+"classname" "ammo_lightning"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"angles" "0 0 0"
+"origin" "429 -943 -994"
+}
+{
+"classname" "ammo_lightning"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"angles" "0 0 0"
+"origin" "438 -853 -994"
+}
+{
+"classname" "weapon_lightning"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "443 -760 -994"
+}
+{
+"classname" "item_quad"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-8 -7 -930"
+}
+{
+"classname" "weapon_bfg"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "5 2 -586"
+}
+{
+"classname" "weapon_shotgun"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "175 375 -995"
+}
+{
+"classname" "ammo_grenades"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "208 -510 -994"
+}
+{
+"classname" "weapon_lightning"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-326 908 -994"
+}
+{
+"classname" "ammo_lightning"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-343 803 -994"
+}
+{
+"classname" "ammo_bfg"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"angles" "0 0 0"
+"origin" "52 -16 -744"
+}
+{
+"classname" "ammo_bfg"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-9 45 -744"
+}
+{
+"classname" "weapon_grenadelauncher"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "108 -505 -994"
+}
+{
+"classname" "item_health_large"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-331 569 -994"
+}
+{
+"classname" "item_health_large"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-322 477 -994"
+}
+{
+"classname" "item_armor_body"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-331 294 -994"
+}
+{
+"classname" "weapon_rocketlauncher"
+"angles" "0 0 0"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "-325 -328 -930"
+}
+{
+"classname" "ammo_rockets"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"angles" "0 0 0"
+"origin" "-325 -231 -930"
+}
+{
+"classname" "ammo_rockets"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"angles" "0 0 0"
+"origin" "-329 -134 -930"
+}
+{
+"classname" "item_health_large"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "431 41 -994"
+}
+{
+"classname" "item_health_large"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "443 -79 -994"
+}
+{
+"classname" "item_armor_body"
+"notbot" "0"
+"notsingle" "0"
+"notteam" "0"
+"notfree" "0"
+"origin" "447 -218 -995"
+}
+
+{
+"target" "end"
+"spawnflags" "1"
+"origin" "-982 -1308 -987"
+"classname" "race_point"
+}
+
+{
+"targetname" "end"
+"spawnflags" "1"
+"origin" "1098 1232 -977"
+"classname" "race_point"
+}
+
+{
+"classname" "info_player_deathmatch"
+"origin" "-1234 -1471 -959"
+"angle" "90"
+}

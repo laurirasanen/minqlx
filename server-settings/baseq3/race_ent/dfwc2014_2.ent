@@ -1,0 +1,490 @@
+{
+"ambient" "15"
+"classname" "worldspawn"
+}
+{
+"angle" "270"
+"origin" "640 -4592 504"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "640 -8376 -424"
+"wait" "1"
+"count" "1"
+"gametype" "race"
+"targetname" "weap"
+}
+{
+"model" "*1"
+"classname" "trigger_teleport"
+"target" "t8"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "640 -6264 496"
+"angle" "270"
+"targetname" "t8"
+}
+{
+"model" "*2"
+"classname" "trigger_teleport"
+"target" "t9"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "640 -6264 496"
+"angle" "270"
+"targetname" "t9"
+}
+{
+"model" "*3"
+"target" "t10"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "t10"
+"angle" "270"
+"origin" "640 -6264 496"
+"classname" "misc_teleporter_dest"
+}
+{
+"count" "25"
+"wait" "1"
+"origin" "640 -9376 -80"
+"classname" "weapon_plasmagun"
+"gametype" "race"
+"targetname" "weap"
+}
+{
+"spawnflags" "1"
+"wait" "1"
+"count" "2"
+"origin" "640 -9408 16"
+"classname" "item_haste"
+"gametype" "race"
+"targetname" "weap"
+}
+{
+"wait" "5"
+"origin" "608 -9376 -80"
+"classname" "item_health_mega"
+}
+{
+"wait" "5"
+"origin" "672 -9376 -80"
+"classname" "item_armor_body"
+}
+{
+"model" "*4"
+"target" "cp2"
+"classname" "trigger_multiple"
+"targetname" "cp1"
+"message" "race_point"
+}
+{
+"model" "*5"
+"classname" "trigger_teleport"
+"target" "t12"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1952 768 24"
+"targetname" "t12"
+}
+{
+"model" "*6"
+"classname" "trigger_teleport"
+"target" "t13"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "1952 768 24"
+"targetname" "t13"
+}
+{
+"model" "*7"
+"classname" "trigger_multiple"
+"message" "target_init"
+}
+{
+"classname" "target_checkpoint"
+"origin" "640 -9960 648"
+"targetname" "t14"
+}
+{
+"classname" "target_init"
+"origin" "640 -9920 648"
+"targetname" "t14"
+}
+{
+"classname" "target_checkpoint"
+"origin" "640 -8688 336"
+"targetname" "t11"
+}
+{
+"model" "*8"
+"target" "t15"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "t15"
+"classname" "misc_teleporter_dest"
+"origin" "1952 768 24"
+}
+{
+"model" "*9"
+"target" "t16"
+"classname" "trigger_push"
+}
+{
+"targetname" "t16"
+"origin" "12056 -552 336"
+"classname" "target_position"
+}
+{
+"model" "*10"
+"target" "t17"
+"classname" "trigger_push"
+}
+{
+"targetname" "t17"
+"origin" "12056 40 336"
+"classname" "target_position"
+}
+{
+"model" "*11"
+"target" "t21"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "t21"
+"origin" "11456 -256 40"
+"classname" "misc_teleporter_dest"
+"angle" "360"
+}
+{
+"classname" "item_health_mega"
+"origin" "352 -7472 -423"
+"wait" "5"
+"gametype" "race"
+"targetname" "weap"
+}
+{
+"wait" "5"
+"origin" "928 -7472 -423"
+"classname" "item_health_mega"
+"targetname" "weap"
+"gametype" "race"
+}
+{
+"model" "*12"
+"classname" "trigger_multiple"
+"target" "cp3"
+"targetname" "cp2"
+"message" "race_point"
+}
+{
+"classname" "target_checkpoint"
+"origin" "8000 -168 160"
+"targetname" "t22"
+}
+{
+"model" "*13"
+"classname" "trigger_multiple"
+"targetname" "cp3"
+"target" "fin"
+"message" "race_point"
+}
+{
+"classname" "target_checkpoint"
+"origin" "11520 -256 704"
+"targetname" "t23"
+}
+{
+"model" "*14"
+"classname" "trigger_multiple"
+"target" "t24"
+}
+{
+"target" "t25"
+"classname" "target_give"
+"origin" "9872 1056 552"
+"targetname" "t24"
+"gametype" "race"
+}
+{
+"targetname" "t25"
+"classname" "weapon_rocketlauncher"
+"origin" "10200 1024 408"
+"count" "2"
+"wait" "2"
+"gametype" "race"
+}
+{
+"targetname" "t25"
+"classname" "item_health_mega"
+"origin" "10272 1024 408"
+"wait" "5"
+}
+{
+"count" "1"
+"wait" "2"
+"origin" "9872 2320 -944"
+"classname" "weapon_grenadelauncher"
+"gametype" "race"
+"targetname" "weap"
+}
+{
+"model" "*15"
+"classname" "trigger_multiple"
+"message" "target_init"
+}
+{
+"targetname" "t26"
+"origin" "9872 176 704"
+"classname" "target_init"
+}
+{
+"wait" "5"
+"origin" "9872 2352 -943"
+"classname" "item_health_mega"
+}
+{
+"model" "*16"
+"target" "t27"
+"classname" "trigger_teleport"
+}
+{
+"model" "*17"
+"target" "t27"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "t27"
+"origin" "9872 -136 480"
+"classname" "misc_teleporter_dest"
+"angle" "90"
+}
+{
+"model" "*18"
+"target" "t28"
+"classname" "trigger_multiple"
+}
+{
+"model" "*19"
+"classname" "trigger_multiple"
+"message" "target_init"
+}
+{
+"targetname" "t29"
+"origin" "9872 4048 -200"
+"classname" "target_init"
+}
+{
+"model" "*20"
+"target" "fin2"
+"classname" "trigger_multiple"
+"targetname" "fin"
+"message" "race_point"
+}
+{
+"targetname" "t30"
+"origin" "9872 4272 -200"
+"classname" "target_checkpoint"
+}
+{
+"targetname" "t32"
+"classname" "weapon_plasmagun"
+"origin" "10536 4640 -440"
+"wait" "2"
+"count" "40"
+"gametype" "race"
+}
+{
+"targetname" "t32"
+"classname" "item_health_mega"
+"origin" "10504 4640 -440"
+"wait" "5"
+}
+{
+"targetname" "t32"
+"classname" "item_armor_body"
+"origin" "10568 4640 -440"
+"wait" "5"
+}
+{
+"model" "*21"
+"target" "t31"
+"classname" "trigger_multiple"
+}
+{
+"target" "t32"
+"targetname" "t31"
+"origin" "9872 4568 -200"
+"classname" "target_give"
+"gametype" "race"
+}
+{
+"model" "*22"
+"classname" "trigger_multiple"
+"targetname" "fin2"
+"message" "race_point"
+}
+{
+"targetname" "t33"
+"origin" "9872 7136 776"
+"classname" "target_stopTimer"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "10544 4592 -440"
+"count" "3"
+"targetname" "t32"
+"gametype" "race"
+}
+{
+"model" "*23"
+"classname" "func_door"
+"angle" "-2"
+"health" "1"
+"wait" "-1"
+"speed" "9999999"
+}
+{
+"model" "*24"
+"classname" "trigger_multiple"
+"target" "t40"
+}
+{
+"classname" "target_give"
+"origin" "12672 -256 104"
+"targetname" "t40"
+"target" "t41"
+}
+{
+"model" "*25"
+"classname" "trigger_multiple"
+"message" "target_init"
+}
+{
+"classname" "target_init"
+"origin" "7576 -216 64"
+"targetname" "t42"
+}
+{
+"model" "*26"
+"classname" "trigger_multiple"
+"message" "target_init"
+}
+{
+"classname" "target_init"
+"origin" "11200 -256 704"
+"targetname" "t43"
+}
+{
+"model" "*27"
+"classname" "trigger_multiple"
+"message" "target_init"
+}
+{
+"classname" "target_init"
+"origin" "4584 768 64"
+"targetname" "t44"
+}
+{
+"model" "*28"
+"classname" "trigger_hurt"
+"dmg" "999"
+}
+{
+"model" "*29"
+"classname" "trigger_multiple"
+"message" "target_init"
+}
+{
+"targetname" "t46"
+"origin" "640 -6016 648"
+"classname" "target_init"
+}
+{
+"model" "*30"
+"classname" "trigger_multiple"
+"target" "cp1"
+"message" "race_point"
+"spawnflags" "1"
+}
+{
+"classname" "target_startTimer"
+"origin" "632 -4712 640"
+"targetname" "t47"
+}
+{
+"wait" "2"
+"count" "1"
+"origin" "2048 768 25"
+"classname" "weapon_rocketlauncher"
+"spawnflags" "1"
+"gametype" "race"
+"targetname" "weap"
+}
+{
+"classname" "ammo_rockets"
+"origin" "12472 -256 80"
+"count" "1"
+"wait" "2"
+"gametype" "race"
+"targetname" "weap"
+}
+{
+"model" "*31"
+"classname" "func_button"
+"wait" "-1"
+"speed" "90000000"
+"angle" "270"
+"health" "9000"
+}
+{
+"classname" "item_health"
+"origin" "12500 -256 80"
+"count" "100"
+"wait" "3"
+}
+{
+"model" "*32"
+"classname" "trigger_teleport"
+"target" "t27"
+}
+{
+"model" "*33"
+"target" "t48"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"target" "t49"
+"targetname" "t48"
+"origin" "6160 0 144"
+"classname" "target_give"
+"gametype" "race"
+}
+{
+"targetname" "t49"
+"count" "1"
+"origin" "6160 -104 144"
+"classname" "weapon_grenadelauncher"
+"gametype" "race"
+}
+{
+"wait" "3"
+"spawnflags" "1"
+"origin" "2024 768 25"
+"classname" "item_health"
+}
+{
+"classname" "trigger_always"
+"origin" "688 -8376 -416"
+"target" "weap"
+"gametype" "race"
+}
+
