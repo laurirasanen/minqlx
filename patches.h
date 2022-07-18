@@ -1,4 +1,4 @@
-void patch_vm(void);
+void patch_vm(void* moduleOffset);
 
 #if defined(__x86_64__) || defined(_M_X64)
 
