@@ -18,16 +18,21 @@ else
     exit 1
 fi
 
+echo "Starting redis..."
+redis-server --daemonize yes
+sleep 5
+
+echo "Starting minqlx..."
 exec /home/steam/qlds/run_server_x64_minqlx.sh \
     +set com_hunkmegs 128 \
     +set fs_homepath /home/steam/.quakelive/$gamePort \
-    +set g_password pootis \
+    +set g_password $PRIVATE_PW \
     +set net_port $gamePort \
     +set sv_hostname $hostname \
     +set sv_mappoolFile $mapPool \
     +set sv_maxclients 16 \
     +set zmq_rcon_enable 1 \
-    +set zmq_rcon_password pootis \
+    +set zmq_rcon_password $RCON_PW \
     +set zmq_rcon_port $rconPort \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password $STATS_PW \
