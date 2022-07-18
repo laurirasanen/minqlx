@@ -25,7 +25,7 @@ exec /home/steam/qlds/run_server_x64_minqlx.sh \
     +set net_port $gamePort \
     +set sv_hostname $hostname \
     +set sv_mappoolFile $mapPool \
-    +set sv_maxclients 24 \
+    +set sv_maxclients 16 \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password pootis \
     +set zmq_rcon_port $rconPort \
