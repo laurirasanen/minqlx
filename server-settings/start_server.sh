@@ -27,6 +27,7 @@ exec /home/steam/qlds/run_server_x64_minqlx.sh \
     +set com_hunkmegs 128 \
     +set fs_homepath /home/steam/.quakelive/$gamePort \
     +set g_password $PRIVATE_PW \
+    +set net_strict 1 \
     +set net_port $gamePort \
     +set sv_hostname $hostname \
     +set sv_mappoolFile $mapPool \
