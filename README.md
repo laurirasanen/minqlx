@@ -3,9 +3,9 @@
 ## Docker
 ```
 docker build -t qlsb .
-docker run -d -p 27960:27960 -p 28960:28960 qlsb
+docker run -d -p 27960:27960 -p 27960:27960/udp -p 28960:28960 --cap-add=SYS_NICE qlsb
 # interactive:
-docker run -it -p 27960:27960 -p 28960:28960 qlsb
+docker run -it -p 27960:27960 -p 27960:27960/udp -p 28960:28960 --cap-add=SYS_NICE qlsb
 ```
 
 ## Credits

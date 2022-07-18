@@ -74,4 +74,5 @@ ENTRYPOINT [ \
     "/home/steam/qlds/start_server.sh", "turbo" \
 ]
 EXPOSE 27960
+EXPOSE 27960/udp
 EXPOSE 28960
