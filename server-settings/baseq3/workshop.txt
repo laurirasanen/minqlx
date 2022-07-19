@@ -8,14 +8,12 @@
 546129401 # Threewave - q3wpak2
 545699336 # Threewave - q3wpak3
 546960020 # Threewave - q3wpak4
-548134603 # Crash Course by w_w
 560783125 # Aliance CTF Race Pack
 562739597 # DeFRaG Lick Pack
 563284812 # DeFRaG palmslane
 563581691 # DeFRaG Slick Pack
 565175871 # DeFRaG Promode and Vanilla Pack
 567083637 # ETjump Pack
-569117106 # pasteyrox by w_w
 569569643 # DeFRag/Race: Run Map Pack #1
 569922415 # koz25
 572919498 # DeFRag/Race: Run Map Pack #2
@@ -25,14 +23,12 @@
 579302748 # jRace2 by JimmSlimm
 580028420 # NSW pack
 582665687 # cos1_beta7b
-583064804 # PB_run by w_w
 592754466 # trippy_run by hawkks
 593100602 # jLHC by JimmSlimm
 595181354 # jLHC
 596370556 # jCommon
 598752473 # cpm_kitchen
 599477605 # the jump by jimm
-599966641 # r2v2
 601020709 # lava_hell
 601074113 # jTheRocketJump
 602200309 # turnK16
@@ -52,105 +48,48 @@
 632544048 # hereannh_gocrazy
 641686200 # Campgrounds CTF
 645442606 # Agony
-646721643 # r7_tang
-646760703 # r7_24
-646876888 # ry_pyramid
-646894569 # flexzstrafe
-646898990 # yellowtorture
 649595989 # Agony CTF >>BETA<<
-649646817 # tatmt maps pack
-651777764 # highway
-651778110 # k4n
-653856495 # infinityql
-655296788 # diniruns
 655639987 # Oilrig
-659176776 # weirdwild
-660632930 # ndql
-661457211 # think1
-663160788 # hangtime
-664707891 # xproject
-666142640 # poptart
-668546728 # blockworld
-670025162 # school
-673537614 # rocketx
-673538075 # plasmax
-673538401 # bfgx
-679099088 # runstolfer
-679099474 # raveroll
-679664523 # ingus
-679664828 # nmn
-679665262 # pea_impostor
-679665619 # charon + charon_bw
-681336752 # northrun
-682370813 # cleanup
-682371189 # rundontstop
-682371492 # inder_carlos
-683361920 # timelock2
-685274478 # climbworld
-685274958 # bardok_w3sp
 685365842 # Snorjumpb1
 677143651 # runsonic
 675230750 # monza
 686027793 # q2jump map: Don't look down (alt6)
-686803128 # marvin
-686803459 # augckjlum6
-686803669 # caep4
 686834294 # big maze
 685740904 # aa_oldtemple
-687336867 # drtrixiipro
-687337028 # timelock4
 687315723 # stonemaze
 687312689 # invmaze
 688033440 # Snorjump 2
 688255728 # puzzlemap
 688631176 # afi_hate
-691852142 # strafecave
 692183846 # sl1k_tetris_easy
-693540516 # wsm
-693926546 # straf
-694543837 # wraiths
-694901070 # srr2k5
-695779344 # koz mini map pack
 697221325 # stonestrafe3
 697168969 # ashley (gu3#3-ashley)
 698081815 # duotest
 699093502 # zeel_ponpon
-699406534 # entryway
 699668623 # pornstar_quickie1
 699668803 # pornstar_quickie2
-700573635 # jumpspace
 700535850 # Iron Hive
 701015166 # wub_junk
 701032296 # randomshite
 700535850 # Iron Hive
-702633127 # bloxrox by w_w
-702925021 # run139
 703072786 # inder_inder
 703073056 # woftct
 704214566 # inder_a1ex
 704214977 # inder_luckr2
-704688453 # quartz
 704782211 # inder_failrun4
 704782462 # effect_inder3
 705329487 # r7_habitual
 705879615 # r7_sanity
 705878601 # r7_romo
 705878168 # r7_hedges
-706862477 # st1
 706652533 # aa_shades
 707810102 # boris_torture1
 707807561 # acrobat_torture1
-707861377 # bloxstrafe
-707714974 # bloxrox2
 711053027 # r7_coyote
 711053994 # r7_hog
 711154452 # aa_dmb
 711381295 # nosf_torture1
 711381812 # fy_poolparty
-712049096 # pornstarghost3
-712965224 # cities_of_gold
-713441245 # timelock3
-714216826 # city
 714263055 # anglepain
 714266312 # 1LNC
 714734614 # rm_n2
@@ -161,18 +100,6 @@
 716113528 # elco_maze
 559698707 # q3dm17
 720990419 # 13plant
-723364633 # ameisen_comp2
-725195946 # assfag
-726300128 # spiderman
-727121018 # dfwc_xlarve
-727679685 # run_quake
-727770396 # pgultimate
-728212123 # xyligan
-730823825 # daytime
-731480214 # kakao
-732017222 # runkull
-738315727 # blub
-738316099 # tinyplams
 739516114 # aa_lum
 739673225 # aa_rmg2
 740803799 # r7_inka
@@ -187,73 +114,29 @@
 726132863 # Time to die(q3shw19) checkpoints added by w_w and trueriot
 748183219 # aa_way
 748183485 # aa_shorty
-755798648 # tenuous
-758112596 # kairos_nosf
-758689451 # cavernish
-758689905 # benzrun7
-760192833 # uprising
-760748076 # tr1ckhouse
-761370715 # Quake - Episode 1
-763108658 # zalupa
-763108971 # pasta
-763495085 # xlarve06
-764117872 # opus
-764624299 # riwarun2
 766452254 # aa_torture
 766452706 # aa_fall
 767071698 # pyramid_strafe
 767072138 # bozer2
-767184760 # retribution_race
 767471748 # effect_torture2
 767472162 # cube_torture
-768007245 # track_comp maps
 768101724 # snakejumps2
 768220010 # applejump_b1
 768393241 # runpharao
 768393486 # bardok_egypt
-770034031 # dfru_xlarve
-770050111 # track
 773057554 # zerojumps_b1
-773533915 # tomb
-774849052 # tatmt_long
 775995985 # jSMK_MC4
-777084450 # voltex
-778121956 # gl
-778685015 # qportal
-779233456 # bumblbee
-779720683 # schody
-780084672 # heaven_or_hell
 569570727 # Freestyle Map Pack 1
-780750886 # cpu_egypt
-780751289 # bug4
-784263076 # 12percent
-784683728 # 17percent
-784684150 # 18percent
-787650504 # bokluk
-788170512 # charon_remix
-794185395 # sunsetpads
-794188075 # lovet_neit
-795096756 # hangtime2
-796674351 # MEGAPORT
-797159413 # LRLLRLRRLRLRLLR
-797757412 # hangy67
-799867538 # killua_pornstar
 799894405 # aa_rmg1
 800285803 # aa_rmg3
 800286055 # aa_round
 800286348 # aa_up
-800513045 # jjm2
 801066196 # xt4zy_4QL
 801283033 # aa_rmg4
 801283348 # aa_shorty2
-805278557 # thisisamap
-805278778 # telemaze
 805817131 # xt4zy_nextone
-806146372 # smallypack
 806821616 # jRNG
-808196690 # 10towers
 808465963 # daanstrafe01
 808360370 # stonestrafe2
-809002682 # overworld_race
 809614969 # daanstrafe02
 810579314 # r7_golem
